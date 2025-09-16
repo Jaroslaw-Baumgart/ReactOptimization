@@ -1,0 +1,128 @@
+.control-panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 25px;
+  border-radius: 15px;
+  color: white;
+  font-family: Arial, sans-serif;
+  z-index: 100;
+  min-width: 300px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.control-panel h2 {
+  margin: 0 0 20px 0;
+  text-align: center;
+  color: #ffa502;
+}
+
+.control-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.control-button {
+  padding: 12px 20px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  flex: 1;
+  font-size: 16px;
+  transition: opacity 0.2s;
+}
+
+.control-button:hover {
+  opacity: 0.9;
+}
+
+.control-button.start {
+  background-color: #2ed573;
+}
+
+.control-button.pause {
+  background-color: #ff4757;
+}
+
+.control-button.clear {
+  background-color: #ffa502;
+}
+
+.slider-container {
+  margin-bottom: 20px;
+}
+
+.slider-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.spawn-slider {
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: #3742fa;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.spawn-slider:hover {
+  opacity: 1;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 5px;
+  color: #dfe4ea;
+}
+
+.stats-container {
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.triangle-count {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ffa502;
+}
+
+.stats-label {
+  font-size: 14px;
+}
+
+.status-indicator {
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.status-indicator.running {
+  background-color: rgba(46, 213, 115, 0.2);
+  border-color: #2ed573;
+}
+
+.status-indicator.paused {
+  background-color: rgba(255, 71, 87, 0.2);
+  border-color: #ff4757;
+}

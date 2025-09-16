@@ -1,11 +1,10 @@
-import React from 'react';
-import TriangleComponent from './Triangle';
+import { FallingTriangles } from './components/FallingTriangles';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <TriangleComponent />
+      <FallingTriangles />
     </div>
   );
 }

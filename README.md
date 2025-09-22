@@ -31,7 +31,7 @@ speed\
 
 ## 🧱 Project Structure
 
-   ├── node_modules/ 
+├── node_modules/ 
 ├── public/
 │   └── react.svg     
 ├── screenshots/
@@ -59,9 +59,9 @@ speed\
 ├── package-lock.json           
 ├── README.md                      
 ├── tsconfig.app.json            
-├── tsconfig.json                  
-├── tsconfig.node.json             
-└── vite.config.ts               
+├── tsconfig.json        
+├── tsconfig.node.json
+└── vite.config.ts
 
 
 ------------------------------------------------------------------------
@@ -89,10 +89,10 @@ npm run dev
 
 4.  **Open in your browser**
 
-```{=html}
-<!-- -->
 ```
-    http://localhost:5173
+http://localhost:5173
+```
+    
 
 ------------------------------------------------------------------------
 
@@ -142,5 +142,5 @@ Released under the **MIT License**
 ## 📬 Contact
 
 -   **GitHub:**
-    [Jaroslaw-Baumgart](https://github.com/Jaroslaw-Baumgart)\
+    [Jaroslaw-Baumgart](https://github.com/Jaroslaw-Baumgart)
 -   **Email:** <jaroslawbaumgart@gmail.com>

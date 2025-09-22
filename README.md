@@ -105,15 +105,15 @@ http://localhost:5173
 
 ## 🔍 Learning Objectives
 
-This project was built to strengthen React skills:
+This project was created as a playground for React performance tuning and animation techniques:
 
--   **Custom Hooks Pattern** -- separation of concerns\
--   **Performance Optimization** -- efficient rendering with
-    `requestAnimationFrame`\
--   **Memory Management** -- cleanup of event listeners and animation
-    frames\
--   **State Management** -- optimized state updates and rendering\
--   **Component Structure** -- modular, reusable components
+* **High-volume Rendering**
+* **Dynamic Props & Styling** 
+* **Optimized State Updates**
+* **Custom Hooks for Animation**
+* **Resource Cleanup**
+* **Interactive Controls**
+
 
 ------------------------------------------------------------------------
 

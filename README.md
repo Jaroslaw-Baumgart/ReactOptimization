@@ -31,38 +31,37 @@ speed\
 
 ## 🧱 Project Structure
 
-├── node_modules/ 
+├── node_modules/
 ├── public/
-│   └── react.svg     
+│   └── react.svg
 ├── screenshots/
-│   └── main.jpg     
+│   └── main.jpg  
 ├── src/
-│   ├── components/  
-│   │   ├── ControlPanel.tsx  
-│   │   ├── FallingTriangles.tsx 
-│   │   ├── styles.css       
-│   │   ├── Triangle.tsx   
-│   │   └── types.ts      
-│   ├── hooks/       
-│   │   ├── useTriangleAnimation.ts 
-│   │   └── useTriangleGenerator.ts 
+│   ├── components/
+│   │   ├── ControlPanel.tsx
+│   │   ├── FallingTriangles.tsx
+│   │   ├── styles.css
+│   │   ├── Triangle.tsx
+│   │   └── types.ts
+│   ├── hooks/
+│   │   ├── useTriangleAnimation.ts
+│   │   └── useTriangleGenerator.ts
 │   ├── utils/
-│   │   └── triangleUtils.ts   
-│   ├── App.css                
-│   ├── App.tsx                 
-│   ├── main.tsx                  
-│   └── vite-env.d.ts            
-├── .gitignore               
-├── eslint.config.js           
-├── index.html                
-├── package.json                
-├── package-lock.json           
-├── README.md                      
-├── tsconfig.app.json            
-├── tsconfig.json        
+│   │   └── triangleUtils.ts
+│   ├── App.css
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── vite-env.d.ts
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+├── tsconfig.app.json
+├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
-
 
 ------------------------------------------------------------------------
 
@@ -97,8 +96,6 @@ http://localhost:5173
 ------------------------------------------------------------------------
 
 ## 📸 Screenshots
-
-### 🎬 Demo Preview
 
 ![Falling Triangles](screenshots/main.jpg)
 

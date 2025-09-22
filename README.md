@@ -22,15 +22,16 @@ speed\
 
 ## 🛠️ Technologies Used
 
--   **React 18.2** -- component-based UI library\
--   **TypeScript 5.0** -- static type checking\
--   **Vite 4.4** -- fast development bundler\
--   **CSS / Tailwind (optional)** -- styling and responsive layout
+-   **React**
+-   **TypeScript**
+-   **Vite**
+-   **CSS**
 
 ------------------------------------------------------------------------
 
 ## 🧱 Project Structure
 
+```
 ├── node_modules/
 ├── public/
 │   └── react.svg
@@ -62,6 +63,7 @@ speed\
 ├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
+```
 
 ------------------------------------------------------------------------
 

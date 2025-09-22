@@ -1,52 +1,146 @@
-# Falling Triangles Animation 🎯
+# 🎯 Falling Triangles Animation
 
-An interactive React + TypeScript application featuring dynamically generated falling triangles. **This project is specifically designed as a learning exercise to practice and better understand React optimization techniques.**
+An interactive **React + TypeScript** application that renders
+dynamically generated falling triangles.\
+This project was created as a **learning exercise** to explore and
+practice **React performance optimization** techniques.
 
-![React](https://img.shields.io/badge/React-18.2.0-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
-![Vite](https://img.shields.io/badge/Vite-4.4.0-purple)
-![Learning Project](https://img.shields.io/badge/Status-Learning%20Project-green)
+------------------------------------------------------------------------
 
-## 📸 Preview
+## ✨ Key Features
 
-![Falling Triangles Demo](https://via.placeholder.com/800x400/1a1a2e/ffffff?text=Falling+Triangles+Animation)
-*Interactive control panel with real-time triangle generation*
+✅ Dynamic triangle generation with random size, color, rotation, and
+speed\
+✅ Real-time control panel to adjust animation parameters\
+✅ Adjustable spawn rate (from 10 ms to 1000 ms)\
+✅ Play / Pause system for full animation control\
+✅ Smooth animations with gradient background\
+✅ Responsive design that works on all screen sizes\
+✅ Full type safety thanks to **TypeScript**
 
-## 🎯 Learning Objectives
+------------------------------------------------------------------------
 
-This project focuses on understanding and implementing React optimization techniques:
+## 🛠️ Technologies Used
 
-- ✅ **Custom Hooks Pattern** - Separation of concerns
-- ✅ **Performance Optimization** - Efficient rendering with `requestAnimationFrame`
-- ✅ **Memory Management** - Proper cleanup of resources
-- ✅ **State Management** - Optimized state updates
-- ✅ **Component Structure** - Modular design principles
+-   **React 18.2** -- component-based UI library\
+-   **TypeScript 5.0** -- static type checking\
+-   **Vite 4.4** -- fast development bundler\
+-   **CSS / Tailwind (optional)** -- styling and responsive layout
 
-## ✨ Features
+------------------------------------------------------------------------
 
-- **Dynamic Triangle Generation** - Random colors, sizes, rotation, and speeds
-- **Real-time Control Panel** - Centered interactive interface
-- **Adjustable Spawn Rate** - From 10ms to 1000ms (100 to 1 triangles/second)
-- **Play/Pause System** - Full control over animation
-- **Clean Visualization** - Smooth animations with gradient background
-- **Responsive Design** - Works on all screen sizes
-- **Type Safety** - Full TypeScript implementation
+## 🧱 Project Structure
 
-## 🚀 Quick Start
+   ├── node_modules/ 
+├── public/
+│   └── react.svg     
+├── screenshots/
+│   └── main.jpg     
+├── src/
+│   ├── components/  
+│   │   ├── ControlPanel.tsx  
+│   │   ├── FallingTriangles.tsx 
+│   │   ├── styles.css       
+│   │   ├── Triangle.tsx   
+│   │   └── types.ts      
+│   ├── hooks/       
+│   │   ├── useTriangleAnimation.ts 
+│   │   └── useTriangleGenerator.ts 
+│   ├── utils/
+│   │   └── triangleUtils.ts   
+│   ├── App.css                
+│   ├── App.tsx                 
+│   ├── main.tsx                  
+│   └── vite-env.d.ts            
+├── .gitignore               
+├── eslint.config.js           
+├── index.html                
+├── package.json                
+├── package-lock.json           
+├── README.md                      
+├── tsconfig.app.json            
+├── tsconfig.json                  
+├── tsconfig.node.json             
+└── vite.config.ts               
 
-### Prerequisites
-- Node.js 14+ 
-- npm or yarn
 
-### Installation
+------------------------------------------------------------------------
 
-```bash
-# Clone the repository
-git clone <your-repo-url>
+## 🚀 How to Run Locally
+
+1.  **Clone the repository**
+
+``` bash
+git clone https://github.com/Jaroslaw-Baumgart/ReactOptimization
 cd falling-triangles
+```
 
-# Install dependencies
+2.  **Install dependencies**
+
+``` bash
 npm install
+```
 
-# Start development server
+3.  **Start the development server**
+
+``` bash
 npm run dev
+```
+
+4.  **Open in your browser**
+
+```{=html}
+<!-- -->
+```
+    http://localhost:5173
+
+------------------------------------------------------------------------
+
+## 📸 Screenshots
+
+### 🎬 Demo Preview
+
+![Falling Triangles](screenshots/main.jpg)
+
+------------------------------------------------------------------------
+
+## 🔍 Learning Objectives
+
+This project was built to strengthen React skills:
+
+-   **Custom Hooks Pattern** -- separation of concerns\
+-   **Performance Optimization** -- efficient rendering with
+    `requestAnimationFrame`\
+-   **Memory Management** -- cleanup of event listeners and animation
+    frames\
+-   **State Management** -- optimized state updates and rendering\
+-   **Component Structure** -- modular, reusable components
+
+------------------------------------------------------------------------
+
+## ✅ TODO
+
+-   [ ] Add unit tests for custom hooks\
+-   [ ] Add option to change triangle shapes (e.g. squares, circles)\
+-   [ ] Export animations as GIF or video\
+-   [ ] Dark/Light theme toggle
+
+------------------------------------------------------------------------
+
+## 👨‍💻 Author
+
+Created by **Jarosław Baumgart**
+
+------------------------------------------------------------------------
+
+## 📜 License
+
+Released under the **MIT License**
+
+------------------------------------------------------------------------
+
+## 📬 Contact
+
+-   **GitHub:**
+    [Jaroslaw-Baumgart](https://github.com/Jaroslaw-Baumgart)\
+-   **Email:** <jaroslawbaumgart@gmail.com>
